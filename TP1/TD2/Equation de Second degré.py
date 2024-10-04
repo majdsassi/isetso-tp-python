@@ -14,7 +14,7 @@ if delta < 0:
 elif delta > 0:
     sol1 = (-b - sqrt(delta)) / (2 * a)
     sol2 = (-b + sqrt(delta)) / (2 * a)
-    print(f"Il existe deux solutions : Sol1 : {sol1} Sol2 : {sol2}")
+    print(f"Il existe deux solutions : Sol1 : {sol1:.2f} Sol2 : {sol2:.2f}")
 else:
     sol = -b / (2 * a)
-    print(f"Il existe une seule solution : {sol}")
+    print(f"Il existe une seule solution : {sol:.2f}")
