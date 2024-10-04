@@ -18,3 +18,4 @@ elif delta > 0:
 else:
     sol = -b / (2 * a)
     print(f"Il existe une seule solution : {sol:.2f}")
+#
